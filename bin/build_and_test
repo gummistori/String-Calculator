@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./bin/compile
+./bin/compile_tests
+./bin/run_test
