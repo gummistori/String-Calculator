@@ -23,7 +23,10 @@ public class StringCalculator{
 						}
 						negNumbers+= num;
 					}else{
-						value += Integer.parseInt(num);
+						if(tempVal < 1000)
+						{
+							value += Integer.parseInt(num);
+						}
 					}
 				}
 			}
