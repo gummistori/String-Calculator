@@ -33,4 +33,8 @@ public class CalculatorTest{
 	public void testDoubleNegatives(){
 		assertEquals(-5, StringCalculator.add("-2,-3"));
 	}
+	@Test
+	public void testDoubleWithMoreCommas(){
+		assertEquals(5, StringCalculator.add("2,,3,"));
+	}
 }
