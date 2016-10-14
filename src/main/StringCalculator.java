@@ -11,7 +11,9 @@ public class StringCalculator{
 			// split 
 			String[] numbers = text.split(",");
 			for (String num : numbers){
-				value += Integer.parseInt(num);
+				if(num.length() > 0){
+					value += Integer.parseInt(num);
+				}
 			}
 		}else{
 			value = Integer.parseInt(text);	
