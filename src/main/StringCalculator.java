@@ -9,7 +9,7 @@ public class StringCalculator{
 		int value = 0;
 		if(text.contains(",")){
 			// split 
-			String[] numbers = text.split(",");
+			String[] numbers = text.split(",|\\\n");
 			for (String num : numbers){
 				if(num.length() > 0){
 					value += Integer.parseInt(num);
@@ -22,4 +22,3 @@ public class StringCalculator{
 		return value;
 	}
 }
-
