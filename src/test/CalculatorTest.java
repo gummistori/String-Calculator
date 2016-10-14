@@ -37,4 +37,8 @@ public class CalculatorTest{
 	public void testDoubleWithMoreCommas(){
 		assertEquals(5, StringCalculator.add("2,,3,"));
 	}
+	@Test
+	public void testWithManyNumbers(){
+		assertEquals(10, StringCalculator.add("2,2,3,3"));
+	}
 }
