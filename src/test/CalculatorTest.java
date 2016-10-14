@@ -20,5 +20,9 @@ public class CalculatorTest{
 		assertEquals(-11, StringCalculator.add("-11"));
 	}
 
-	
+	@Test
+	public void testDouble(){
+		assertEquals(5, StringCalculator.add("2,3"));
+	}
+
 }
