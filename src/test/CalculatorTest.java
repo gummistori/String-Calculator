@@ -14,4 +14,11 @@ public class CalculatorTest{
 	public void testSingle(){
 		assertEquals(1, StringCalculator.add("1"));
 	}
+
+	@Test
+	public void testSingleNegative(){
+		assertEquals(-11, StringCalculator.add("-11"));
+	}
+
+	
 }
