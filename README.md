@@ -2,4 +2,4 @@
 
 RU username: gudmundurf
 
-Done in Windows
+Developed in Windows
