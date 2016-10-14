@@ -1,6 +1,3 @@
-//StringCalculator.java
-
-
 package ru.Stringcalculator;
 
 
@@ -9,3 +6,4 @@ public class StringCalculator{
 		return Integer.MIN_VALUE;
 	}
 }
+
