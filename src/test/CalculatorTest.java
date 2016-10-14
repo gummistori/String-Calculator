@@ -59,4 +59,9 @@ public class CalculatorTest{
 	{
 		assertEquals(20, StringCalculator.add("20,1004"));
 	}
+	@Test
+	public void testCustomDelimeter() throws NegativeException
+	{
+		assertEquals(10, StringCalculator.add("//+\n7+3"));
+	}
 }
