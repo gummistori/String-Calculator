@@ -1,3 +1,3 @@
 # String-Calculator
 
-RU username: gummistori
+RU username: gudmundurf
