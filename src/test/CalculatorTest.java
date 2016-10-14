@@ -24,5 +24,13 @@ public class CalculatorTest{
 	public void testDouble(){
 		assertEquals(5, StringCalculator.add("2,3"));
 	}
+	@Test
+	public void testDoubleWithNegative(){
+		assertEquals(1, StringCalculator.add("-2,3"));
+	}
 
+	@Test
+	public void testDoubleNegatives(){
+		assertEquals(-5, StringCalculator.add("-2,-3"));
+	}
 }
