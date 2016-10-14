@@ -54,4 +54,9 @@ public class CalculatorTest{
 		assertEquals(5, StringCalculator.add("2\n,3,"));
 	}
 
+	@Test
+	public void testSkipOverThousand() throws NegativeException
+	{
+		assertEquals(20, StringCalculator.add("20,1004"));
+	}
 }
