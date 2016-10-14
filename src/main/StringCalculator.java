@@ -7,7 +7,9 @@ public class StringCalculator{
 			return 0;
 		}
 
-		return Integer.MIN_VALUE;
+		int value = Integer.parseInt(text);
+
+		return value;
 	}
 }
 
